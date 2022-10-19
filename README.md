@@ -1,6 +1,9 @@
 # AthenaRX
 An exploit to bypass Reboot Restore RX, a freeware alternative to Microsoft SteadyState.
 
+# // Disclaimer
+I am not responsible for any damages caused by running this software. It is your fault if your personal computer is clogged up with a garbage 87GB .exe file.
+
 
 # // About Reboot Restore RX
 Reboot Restore RX is a freeware utility that restores the computer it’s installed on to a baseline image of the OS. Some schools use this to stop students from installing software such as games by restoring the entire OS to a previous state. This is similar to Microsoft’s (much more stable) SteadyState, that does the same thing.
@@ -12,5 +15,7 @@ AthenaRX was discovered (comically enough) with a Python script called “THE ON
 
 # // Using AthenaRX
 To use AthenaRX, download the source code of this repo, unzip the file, and run athena.py. This version of the exploit will leave ~10 GB of space left on the disk, enough to bypass Reboot Restore RX, and enough to install most programs.
+
+
 
 AthenaRX is FOSS. This code should never be sold or forked purely to remove the author's signature.
