@@ -14,7 +14,7 @@ AthenaRX is an exploit for bypassing Reboot Restore RX. AthenaRX is performed by
 AthenaRX was discovered (comically enough) with a Python script called “THE ONE PIECE.py”, a script that would repeatedly write “THE ONE PIECE IS REAL!!!!!” to a text file until the drive was filled and the program crashed. Once the drive is filled, Reboot Restore RX attempts to defrag the system in a desperate attempt to free up space, but fails, and continues boot without imaging the baseline.
 
 # // Using AthenaRX
-To use AthenaRX, download the source code of this repo, unzip the file, and run athena.py. This version of the exploit will leave ~10 GB of space left on the disk, enough to bypass Reboot Restore RX, and enough to install most programs.
+To use AthenaRX, first install the programs you wish to keep across reboots. AthenaRX works by filling the C: drive to hell and back, so you'll want to install programs first. After you've installed the programs you want, download the source ZIP file from the "Code" button at the top of this repo's page, download the ZIP, extract athena.py, and run it. The exploit's completion time will depend on how much disk space is available to the computer.
 
 
 
